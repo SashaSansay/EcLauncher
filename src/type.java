@@ -1,0 +1,1 @@
+public enum type {CLOSE,MINIMIZE,UPDATE,AQUILLA}

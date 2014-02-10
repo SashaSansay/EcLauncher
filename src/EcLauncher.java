@@ -3,6 +3,8 @@ import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
+import java.io.File;
+import java.nio.file.Files;
 
 public class EcLauncher extends JFrame{
     private static Point mouseDownScreenCoords;
@@ -11,7 +13,13 @@ public class EcLauncher extends JFrame{
     private final int version=1;
 
     public EcLauncher(){
+
         super("Craft.ec Launcher");
+        launcher=this;
+        String mainPath = Utils.getMainPath();
+        if(!new File(mainPath).exists()){
+            new File(mainPath).mkdir();
+        }
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(830,500);
         this.setUndecorated(true);

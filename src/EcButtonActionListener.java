@@ -12,6 +12,7 @@ public class EcButtonActionListener implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        Utils.playSound("click.wav");
         EcButton btn = (EcButton) e.getSource();
         type type = btn.getType();
         switch (type){

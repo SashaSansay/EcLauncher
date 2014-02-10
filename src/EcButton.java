@@ -53,7 +53,7 @@ public class EcButton extends JButton{
                 g2.drawString(text,348/2-fontMetrics.charsWidth(text.toCharArray(),0,text.length())/2,20);
                 g2.setColor(Color.decode("#2E8118"));
                 font = font.deriveFont(15.0f);
-                g2.setFont(font );
+                g2.setFont(font);
                 g2.drawString(text2,348/2-fontMetrics.charsWidth(text2.toCharArray(),0,text2.length())/2,40);
             } catch (FontFormatException e) {
                 e.printStackTrace();

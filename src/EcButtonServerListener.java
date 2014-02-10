@@ -11,6 +11,6 @@ public class EcButtonServerListener implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
-
+        Utils.playSound("click.wav");
     }
 }

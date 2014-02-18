@@ -1,5 +1,6 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 
 public class EcButtonServerListener implements ActionListener {
 
@@ -12,5 +13,15 @@ public class EcButtonServerListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         Utils.playSound("click.wav");
+        try {
+            String version="";
+            switch (((EcServerButton)actionEvent.getSource()).getType()){
+                case AQUILLA: version="aquilla";break;
+                default: version="aquilla";break;
+            }
+            Utils.startMinecraft(l.getMemory(),version);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

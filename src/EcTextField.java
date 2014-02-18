@@ -1,11 +1,14 @@
 import javax.swing.*;
 import javax.swing.text.Caret;
 import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.io.File;
 import java.io.IOException;
 
 public class EcTextField extends JTextField{
     private Font font;
+    private EcTextField text;
 
     public EcTextField(String text,int x, int y,int width,int height){
         //super(text);
@@ -18,6 +21,29 @@ public class EcTextField extends JTextField{
         } catch (IOException e) {
             e.printStackTrace();
         }
+        this.setEditable(false);
+        this.addKeyListener(new KeyListener() {
+            @Override
+            public void keyTyped(KeyEvent keyEvent) {
+                char c = keyEvent.getKeyChar();
+                System.out.println((byte)c);
+                EcTextField f = (EcTextField)keyEvent.getSource();
+                //if(f.getText().equals(""))return;
+                //f.setText(f.getText().substring(0, f.getText().length()-1));
+                if((c==8)&&(!f.getText().equals("")))f.setText(f.getText().substring(0, f.getText().length()-1));
+                if((c>48)&&(c<58)) f.setText(f.getText()+c);
+            }
+
+            @Override
+            public void keyPressed(KeyEvent keyEvent) {
+
+            }
+
+            @Override
+            public void keyReleased(KeyEvent keyEvent) {
+
+            }
+        });
     }
     public void paintComponent(Graphics g)
     {

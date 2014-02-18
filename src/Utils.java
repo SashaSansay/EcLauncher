@@ -6,10 +6,21 @@ import java.math.BigInteger;
 import java.net.*;
 import java.security.MessageDigest;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 public class Utils {
-    public static String[] pollServer(String ip, int port)
+    private static List<File> modsList=new ArrayList<File>();
+
+    public static synchronized String[] pollServer(String ip, int port)
     {
+
         Socket soc = null;
         DataInputStream dis = null;
         DataOutputStream dos = null;
@@ -100,32 +111,99 @@ public class Utils {
 
     public static String getMainPath(){
         return System.getProperty("user.home")+File.separator+".craftec";
+        //return  System.getProperty("user.home")+File.separator+"AppData"+File.separator+"Roaming"+File.separator+".minecraft";
     }
 
-   /* public static String[][] getMD5Mods(String path){
-        String mainPath=getMainPath();
-
-    }*/
-
-    public static String getWorkingDirectory(){
-        return System.getProperty("user.home")+File.separator+".craftec";
+    public static String[][] getMD5Mods(){
+        String mainPath=getMainPath()+File.separator+"mods"+File.separator;
+        String send="";
+        listFiles(mainPath);
+        Iterator itr = modsList.iterator();
+        while (itr.hasNext()){
+            File current = (File) itr.next();
+            System.out.print(current.getName()+";"+getMD5File(current.getAbsolutePath())+";");
+        }
+        return null;
     }
 
-    public static void startMinecraft(String memory,String version,String forge){
-        //String  bin = Utils.getWorkingDirectory() + File.separator + cfolder + File.separator + "bin" + File.separator;
-        //String  min = Utils.getWorkingDirectory() + File.separator + cfolder;
-        //String[] s = LauncherFrame.result.split(":");
-        String cp = File.pathSeparator;
-        ArrayList<String> params = new ArrayList<String>();
-        params.add("java");
-        //params.add("-Xmx" + memoryId + "m");
-        memory="1024";
-        version="1.6.4";
-        forge="9.11.1.965";
-        //params.add("java -Xms"+memory"+m -Xmx"+memory+"m -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true -Djava.library.path=\".\versions\\"+version+"\natives\" -cp \".\libraries\net\minecraftforge\minecraftforge\\"+forge+"\minecraftforge-%forge%.jar\";\".\libraries\net\minecraft\launchwrapper\%launchwrapper%\launchwrapper-%launchwrapper%.jar";".\libraries\org\ow2\asm\asm-all\4.1\asm-all-4.1.jar";".\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar";".\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar";".\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar";".\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar";".\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar";".\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar";".\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar";".\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar";".\libraries\org\lwjgl\lwjgl\lwjgl\2.9.0\lwjgl-2.9.0.jar";".\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.0\lwjgl_util-2.9.0.jar";".\libraries\argo\argo\2.25_fixed\argo-2.25_fixed.jar";".\libraries\org\bouncycastle\bcprov-jdk15on\1.47\bcprov-jdk15on-1.47.jar";".\libraries\com\google\guava\guava\14.0\guava-14.0.jar";".\libraries\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar";".\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar";".\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar";".\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar";".\libraries\com\google\code\gson\gson\2.2.2\gson-2.2.2.jar";".\versions\%version%\%version%.jar" net.minecraft.launchwrapper.Launch --username %name% --session %session% --version Forge%forge% --gameDir ".\minecraft" --assetsDir ".\assets" --tweakClass cpw.mods.fml.common.launcher.FMLTweaker");
-        ProcessBuilder pb = new ProcessBuilder(params);
+    public static void listFiles(String path){
+        File root = new File(path);
+        File[] list = root.listFiles();
+        if (list == null) return;
+        for ( File f : list ) {
+            if ( f.isDirectory() ) {
+                listFiles(f.getAbsolutePath());
+            }
+            else {
+                modsList.add(f);
+            }
+        }
+    }
 
-        System.exit(0);
+    public static void startMinecraft(String memory,String version) throws FileNotFoundException{
+        try
+        {
+            String path = getMainPath()+File.separator;
+            String versionDir = new File(path,"versions"+File.separator+version).getAbsolutePath()+File.separator;
+            String assetsDir = new File(path, "assets").getAbsolutePath() + File.separator;
+            List<String> params = new ArrayList<String>();
+            if (Utils.getPlatform() == 2) params.add("javaw"); else params.add("java");
+            params.add("-Xincgc");
+            params.add("-Xmx"+memory+"m");
+            params.add("-Djava.library.path=\"" + versionDir + "natives\"");
+            JsonParser parser = new JsonParser();
+            JsonObject elem = parser.parse(
+                    new InputStreamReader(new FileInputStream(versionDir + version+".json"))).getAsJsonObject();
+            JsonArray libraries = elem.get("libraries").getAsJsonArray();
+            params.add("-cp");
+            StringBuilder path1 = new StringBuilder();
+            for (JsonElement lib : libraries) {
+                String[] vars = lib.getAsJsonObject().get("name").getAsString()
+                        .split(":");
+                String libPath = path + "libraries/"
+                        + vars[0].replaceAll("\\.", "/") + "/" + vars[1] + "/"
+                        + vars[2] + "/" + vars[1] + "-" + vars[2] + ".jar";
+                path1.append(libPath + ";");
+                JsonElement natives = lib.getAsJsonObject().get("natives");
+                if (natives != null) {
+                    String os = "windows";
+                    if (Utils.getPlatform() == 2) {
+                        os = "windows";
+                    } else if (Utils.getPlatform() == 3) {
+                        os = "osx";
+                    } else if (Utils.getPlatform() == 0) {
+                        os = "linux";
+                    }
+
+                    File nativesZip = new File(path + "libraries/"
+                            + vars[0].replaceAll("\\.", "/") + "/" + vars[1] + "/"
+                            + vars[2] + "/" + vars[1] + "-" + vars[2] + "-"
+                            + "natives-" + os + ".jar");
+                    Zipper.unzipFolder(nativesZip, new File(versionDir, "natives"));
+                }
+            }
+            path1.append(versionDir + version+".jar");
+            params.add("\"" + path1.toString() + "\"");
+            params.add(elem.get("mainClass").getAsString());
+            params.add(elem.get("minecraftArguments").getAsString()
+                    .replace("${auth_player_name}", "SashaSansay")
+                    .replace("${auth_session}", "Hello World! ^^")
+                    .replace("${version_name}", version)
+                    .replace("${game_directory}", path)
+                    .replace("${game_assets}", assetsDir)
+                    .replace("${auth_uuid}", "1")
+                    .replace("${auth_access_token}", "1")
+                    .replace("${auth_uuid}", "Hello World Again! ^^"));
+            StringBuilder sb = new StringBuilder();
+            for (String s : params) {
+                //System.out.print(s + " ");
+                sb.append(s + " ");
+            }
+            Runtime.getRuntime().exec(sb.toString());
+        } catch (Exception e)
+        {
+            e.printStackTrace();
+        }
     }
 
     public static synchronized void playSound(final String url) {
@@ -141,5 +219,32 @@ public class Utils {
                 }
             }
         }).start();
+    }
+
+    public static int getPlatform()
+    {
+        String osName = System.getProperty("os.name").toLowerCase();
+
+        if(osName.contains("win")) return 2;
+        if(osName.contains("mac")) return 3;
+        if(osName.contains("solaris")) return 1;
+        if(osName.contains("sunos")) return 1;
+        if(osName.contains("linux")) return 0;
+        if(osName.contains("unix")) return 0;
+
+        return 4;
+    }
+
+    public static String getMemory(EcLauncher l){
+        return l.getMemory();
+    }
+
+    public static void openURL(String url)
+    {
+        try
+        {
+            Object o = Class.forName("java.awt.Desktop").getMethod("getDesktop", new Class[0]).invoke(null, new Object[0]);
+            o.getClass().getMethod("browse", new Class[] { URI.class }).invoke(o, new Object[] { new URI(url)});
+        } catch (Throwable e) {}
     }
 }

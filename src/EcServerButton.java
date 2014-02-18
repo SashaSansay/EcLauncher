@@ -18,7 +18,7 @@ public class EcServerButton extends JButton{
     private int progressWidth;
     private String online;
 
-    public EcServerButton(type type,int x,int y,int sizeX,int sizeY,EcLauncher l){
+    public EcServerButton(type type,int x,int y,int sizeX,int sizeY,EcLauncher l) throws Exception {
         this.type=type;
         this.x=x;
         this.y=y;
@@ -28,18 +28,15 @@ public class EcServerButton extends JButton{
         this.setBounds(x,y,sizeX,sizeY);
         this.addActionListener(new EcButtonServerListener(l));
         this.setCursor(new Cursor(Cursor.HAND_CURSOR));
-        switch (type){
-            case AQUILLA: port=25565;
-        }
-        String[] res = Utils.pollServer("craft.ec",port);
-        if(res[0]!=null){
-            progressWidth = (int) ((348.0f/100.00f)*(Float.valueOf(res[1])*100.0f/Float.valueOf(res[2])));
-            online=res[1]+"/"+res[2];
-        }else{
-            online="";
-        }
-
+        new PollWorker(this).doInBackground();
     }
+
+    public void updateInfoAndRepaint(int progressWidth,String online){
+        this.progressWidth=progressWidth;
+        this.online=online;
+        this.repaint();
+    }
+
     public void paintComponent(Graphics g)
     {
         super.paintComponent(g);
@@ -92,6 +89,8 @@ public class EcServerButton extends JButton{
         }
         g2.setColor(Color.WHITE);
     }
+
+
 
     public type getType() {
         return type;

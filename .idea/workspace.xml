@@ -4,18 +4,33 @@
     <list default="true" id="24f8d4ed-d450-432f-a60a-837934e95264" name="Default" comment="" />
     <ignored path="craftecLauncher.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/EcLauncher.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391851718973" ignored="false" />
-    <file path="/fragment.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391249146383" ignored="false" />
-    <file path="/EcBGPanel.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391855175110" ignored="false" />
+    <file path="/EcLauncher.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392048764287" ignored="false" />
+    <file path="/fragment.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392404201227" ignored="false" />
+    <file path="/EcBGPanel.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392657389960" ignored="false" />
     <file path="/EcButton.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391536065649" ignored="false" />
     <file path="/EcButtonActionListener.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391853933747" ignored="false" />
-    <file path="/Main.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391460077744" ignored="false" />
+    <file path="/Main.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392668567146" ignored="false" />
     <file path="/type.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391360721357" ignored="false" />
-    <file path="/EcServerButton.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391852191859" ignored="false" />
-    <file path="/EcButtonServerListener.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391852317146" ignored="false" />
-    <file path="/Utils.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391972527647" ignored="false" />
+    <file path="/EcServerButton.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392668412066" ignored="false" />
+    <file path="/EcButtonServerListener.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392667027498" ignored="false" />
+    <file path="/Utils.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392667391351" ignored="false" />
     <file path="/EcComboBox.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391851423979" ignored="false" />
-    <file path="/EcTextField.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391972564670" ignored="false" />
+    <file path="/EcTextField.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392658896443" ignored="false" />
+    <file path="/Starter.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392048390159" ignored="false" />
+    <file path="$USER_HOME$/minecraftDev164/forge/mcp/src/minecraft/net/minecraft/client/gui/GuiMainMenu.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392408731791" ignored="false" />
+    <file path="$USER_HOME$/minecraftDev164/forge/mcp/src/minecraft/net/minecraft/client/gui/GuiScreen.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392319807966" ignored="false" />
+    <file path="/GuiScreen.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392319712165" ignored="false" />
+    <file path="$USER_HOME$/minecraftDev164/forge/mcp/src/minecraft/net/minecraft/client/gui/GuiIngameMenu.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392404548094" ignored="false" />
+    <file path="/GuiIngameMenu.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392320589734" ignored="false" />
+    <file path="$USER_HOME$/minecraftDev164/forge/mcp/src/minecraft/net/minecraft/client/gui/GuiAuth.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392402835262" ignored="false" />
+    <file path="/GuiAuth.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392321082400" ignored="false" />
+    <file path="$USER_HOME$/minecraftDev164/forge/mcp/src/minecraft/net/minecraft/client/gui/inventory/GuiContainer.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392405132391" ignored="false" />
+    <file path="/GuiContainer.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392405121490" ignored="false" />
+    <file path="/GuiMainMenu.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392408730175" ignored="false" />
+    <file path="$USER_HOME$/minecraftDev164/forge/mcp/src/minecraft/net/minecraft/entity/passive/EntityHorse.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392406187747" ignored="false" />
+    <file path="$USER_HOME$/minecraftDev164/forge/mcp/src/minecraft/net/minecraft/world/FakeWorld.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392411638339" ignored="false" />
+    <file path="/FakeWorld.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392411591646" ignored="false" />
+    <file path="/PollWorker.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392668373098" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +45,38 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/EcTextField.java" line="33" class="EcTextField$1" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Utils.java" line="119" class="Utils" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -65,8 +111,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -79,16 +123,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="8" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EcTextField.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EcTextField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="10" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+            <state line="8" column="27" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,10 +131,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="EcBGPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EcBGPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="46" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EcLauncher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EcLauncher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="19" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="EcButton.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EcButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0">
+            <state line="4" column="52" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +161,7 @@
       <file leaf-file-name="EcServerButton.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EcServerButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0">
+            <state line="77" column="24" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,16 +170,22 @@
       <file leaf-file-name="Utils.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="10" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.67741936">
-              <folding />
+            <state line="123" column="91" selection-start="4061" selection-end="4061" vertical-scroll-proportion="0.33271375">
+              <folding>
+                <element signature="e#538#544#0" expanded="true" />
+                <element signature="method#pollServer#0;class#Utils#0" expanded="false" />
+                <element signature="method#startMinecraft#0;class#Utils#0" expanded="false" />
+                <element signature="e#4904#4912#0" expanded="true" />
+                <element signature="method#getPlatform#0;class#Utils#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EcBGPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EcBGPanel.java">
+      <file leaf-file-name="PollWorker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PollWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="62" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.0">
+            <state line="17" column="27" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,15 +203,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/images/EcButton.java" />
         <option value="$PROJECT_DIR$/src/type.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/EcButton.java" />
         <option value="$PROJECT_DIR$/src/EcComboBox.java" />
+        <option value="$PROJECT_DIR$/src/EcButtonActionListener.java" />
+        <option value="$PROJECT_DIR$/src/Starter.java" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.052/LauncherFrame.java" />
+        <option value="$PROJECT_DIR$/src/Zipper.java" />
+        <option value="$PROJECT_DIR$/src/EcTextField.java" />
+        <option value="$PROJECT_DIR$/src/EcButtonServerListener.java" />
+        <option value="$PROJECT_DIR$/src/PollWorker.java" />
+        <option value="$PROJECT_DIR$/src/EcBGPanel.java" />
         <option value="$PROJECT_DIR$/src/EcLauncher.java" />
         <option value="$PROJECT_DIR$/src/EcServerButton.java" />
-        <option value="$PROJECT_DIR$/src/EcButtonServerListener.java" />
-        <option value="$PROJECT_DIR$/src/EcButtonActionListener.java" />
-        <option value="$PROJECT_DIR$/src/EcBGPanel.java" />
-        <option value="$PROJECT_DIR$/src/EcTextField.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Utils.java" />
       </list>
     </option>
@@ -190,6 +253,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,24 +302,27 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="appearance" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/minecraftDev164" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -376,16 +443,16 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.4972156" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.47494033" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17422435" sideWeight="0.67141163" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976275" sideWeight="0.48766905" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17422435" sideWeight="0.66903913" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976275" sideWeight="0.4622116" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32858837" sideWeight="0.51949084" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.47494033" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976275" sideWeight="0.5322196" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33096084" sideWeight="0.4176611" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -452,116 +519,190 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/EcBGPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/Zipper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="85" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
+        <state line="11" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/152mcp/src/minecraft/net/minecraft/client/gui/GuiAuth.java">
+    <entry file="file://$PROJECT_DIR$/src/type.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/152mcp/src/minecraft/net/minecraft/util/MD5File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="24" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.62423503" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcComboBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="200" selection-end="200" vertical-scroll-proportion="0.16377649">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcButtonActionListener.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/jre/lib/rt.jar!/java/util/ArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.16221374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="86" selection-start="382" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/jre/lib/rt.jar!/java/io/File.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="26" selection-start="2932" selection-end="2932" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zipper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.065764025">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcButtonServerListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/jre/lib/rt.jar!/java/awt/FontMetrics.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="68" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="218" selection-end="218" vertical-scroll-proportion="-0.40925926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/jre/lib/rt.jar!/sun/java2d/SunGraphics2D.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="16" selection-start="5769" selection-end="5769" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/jre/lib/rt.jar!/javax/swing/JComponent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="19" selection-start="6902" selection-end="6902" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EcBGPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="62" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+        <state line="18" column="48" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcTextField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="10" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="33" column="60" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.88781434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcButtonActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.065764025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PollWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcBGPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EcLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="19" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0">
+        <state line="4" column="52" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EcServerButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0">
+        <state line="77" column="24" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="10" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.67741936">
-          <folding />
+        <state line="123" column="91" selection-start="4061" selection-end="4061" vertical-scroll-proportion="0.33271375">
+          <folding>
+            <element signature="e#538#544#0" expanded="true" />
+            <element signature="method#pollServer#0;class#Utils#0" expanded="false" />
+            <element signature="method#startMinecraft#0;class#Utils#0" expanded="false" />
+            <element signature="e#4904#4912#0" expanded="true" />
+            <element signature="method#getPlatform#0;class#Utils#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>craftecLauncher</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gson-2.2.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

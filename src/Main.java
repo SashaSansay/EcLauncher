@@ -1,12 +1,11 @@
-import javax.swing.*;
-import java.awt.*;
-import java.io.File;
-import java.io.IOException;
+import Components.EcLauncher;
+import Util.Utils;
 
 public class Main {
     public static void main(String[] args) throws Exception {
         //System.out.println(System.getProperty("user.home"));
-        Utils.getMD5Mods();
+        System.out.println(Utils.getInfo("hashes"));
+        System.out.println(Utils.getInfo("launcher"));
         new EcLauncher();
     }
 }

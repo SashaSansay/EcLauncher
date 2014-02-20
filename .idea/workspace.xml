@@ -13,7 +13,7 @@
     <file path="/type.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391360721357" ignored="false" />
     <file path="/EcServerButton.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392779602243" ignored="false" />
     <file path="/EcButtonServerListener.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392667027498" ignored="false" />
-    <file path="/Utils.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392747575299" ignored="false" />
+    <file path="/Utils.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392839796072" ignored="false" />
     <file path="/EcComboBox.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1391851423979" ignored="false" />
     <file path="/EcTextField.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392658896443" ignored="false" />
     <file path="/Starter.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392048390159" ignored="false" />
@@ -36,7 +36,7 @@
     <file path="/UpdateWorker.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392752655052" ignored="false" />
     <file path="/UpdateUtils.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392779063707" ignored="false" />
     <file path="/UpdateRunnable.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392779121100" ignored="false" />
-    <file path="/UpdateThread.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392779419059" ignored="false" />
+    <file path="/UpdateThread.java" changelist="24f8d4ed-d450-432f-a60a-837934e95264" time="1392840417904" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,50 +52,6 @@
   </component>
   <component name="DebuggerManager">
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/Components/EcTextField.java" line="34" class="Components.EcTextField$1" package="Components">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Util/Utils.java" line="126" class="Util.Utils" package="Util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Components/EcProrgressBar.java" line="43" class="Components.EcProrgressBar" package="Components">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -130,6 +86,50 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/Components/EcTextField.java" line="34" class="Components.EcTextField$1" package="Components">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Components/EcProrgressBar.java" line="43" class="Components.EcProrgressBar" package="Components">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Util/UpdateThread.java" line="23" class="Util.UpdateThread" package="Util">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -143,28 +143,8 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+            <state line="6" column="10" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Util/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="38" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Util/UpdateUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,35 +153,15 @@
         <entry file="file://$PROJECT_DIR$/src/Components/EcServerButton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="33" column="0" selection-start="877" selection-end="916" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PollWorker.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PollWorker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Workers/PollWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.13152805">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EcProrgressBar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/EcProrgressBar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="44" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EcBGPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/EcBGPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="38" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
+            <state line="8" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,7 +170,18 @@
       <file leaf-file-name="UpdateThread.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Util/UpdateThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="16" selection-start="464" selection-end="559" vertical-scroll-proportion="0.0">
+            <state line="25" column="41" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Util/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="134" column="12" selection-start="4366" selection-end="4366" vertical-scroll-proportion="0.68821293">
               <folding />
             </state>
           </provider>
@@ -235,12 +206,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/EcProgressbar.java" />
         <option value="$PROJECT_DIR$/src/EcProrgressBar.java" />
         <option value="$PROJECT_DIR$/src/EcBGPanel.java" />
         <option value="$PROJECT_DIR$/src/UpdateWorker.java" />
         <option value="$PROJECT_DIR$/src/Components.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Listeners/EcButtonServerListener.java" />
         <option value="$PROJECT_DIR$/src/Components/EcLauncher.java" />
         <option value="$PROJECT_DIR$/src/Workers/PollWorker.java" />
@@ -248,9 +217,11 @@
         <option value="$PROJECT_DIR$/src/Workers/UpdateWorker.java" />
         <option value="$PROJECT_DIR$/src/Util/UpdateRunnable.java" />
         <option value="$PROJECT_DIR$/src/Util/UpdateUtils.java" />
-        <option value="$PROJECT_DIR$/src/Util/UpdateThread.java" />
         <option value="$PROJECT_DIR$/src/Components/EcBGPanel.java" />
         <option value="$PROJECT_DIR$/src/Components/EcServerButton.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Util/Utils.java" />
+        <option value="$PROJECT_DIR$/src/Util/UpdateThread.java" />
       </list>
     </option>
   </component>
@@ -286,6 +257,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -388,8 +361,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -535,17 +506,17 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17581543" sideWeight="0.66903913" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17581543" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976275" sideWeight="0.45266506" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976275" sideWeight="0.5417661" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33096084" sideWeight="0.41050118" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.41050118" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -607,18 +578,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/EcTextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="60" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.88781434">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Listeners/EcButtonActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.065764025">
-          <folding />
-        </state>
+        <state line="4" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.065764025" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/jre/lib/rt.jar!/sun/net/www/protocol/http/HttpURLConnection.class">
@@ -640,23 +602,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="38" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/EcLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="0" selection-start="2218" selection-end="2218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/jre/lib/rt.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="-1.9524752" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="0" selection-start="8317" selection-end="8317" vertical-scroll-proportion="0.7980198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/UpdateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="0.4074074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/EcBGPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="38" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-0.2523191">
           <folding />
         </state>
       </provider>
@@ -668,32 +649,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/UpdateUtils.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/jre/lib/rt.jar!/java/io/File.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/jre/lib/rt.jar!/java/lang/Thread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="-1.9524752">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/EcBGPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="38" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/UpdateThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="464" selection-end="559" vertical-scroll-proportion="0.0">
+        <state line="11" column="41" selection-start="427" selection-end="427" vertical-scroll-proportion="0.3231939">
           <folding />
         </state>
       </provider>
@@ -701,15 +659,29 @@
     <entry file="file://$PROJECT_DIR$/src/Components/EcServerButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="877" selection-end="916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Workers/PollWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/UpdateThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="41" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Workers/PollWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/Util/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.13152805">
+        <state line="134" column="12" selection-start="4366" selection-end="4366" vertical-scroll-proportion="0.68821293">
           <folding />
         </state>
       </provider>

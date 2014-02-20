@@ -2,6 +2,9 @@ package Util;
 
 import Components.EcProrgressBar;
 
+import java.io.File;
+import java.util.Arrays;
+
 public class UpdateThread extends Thread {
 
     private EcProrgressBar bar;
@@ -19,7 +22,7 @@ public class UpdateThread extends Thread {
             try {
                 Thread.sleep(50);
             } catch (InterruptedException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                e.printStackTrace();
             }
         }
     }

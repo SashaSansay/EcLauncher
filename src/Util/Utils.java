@@ -112,7 +112,7 @@ public class Utils {
         }
         catch(Exception e){
             e.printStackTrace();
-            return "";
+            return e.getMessage();
         }
     }
 
@@ -131,13 +131,11 @@ public class Utils {
         while (itr.hasNext()){
             //mods=Arrays.copyOf(mods,mods.length+1);
             File current = (File) itr.next();
+            if(!current.getAbsolutePath().equals(getMainPath()+File.separator+"mods"+File.separator+"rei_minimap"+File.separator+"keyconfig.txt"))
             mods+=current.getAbsolutePath().replace(getMainPath()+File.separator,"")+";"+getMD5File(current.getAbsolutePath())+";";
-            //mods[i][0][0]="http://downloadcurrent.getAbsolutePath().replace("C:\\Users\\Админ\\.craftec\\","")
-            //System.out.print(current.getAbsolutePath().replace("C:\\Users\\Админ\\.craftec\\","")+";"+getMD5File(current.getAbsolutePath())+";");
-
         }
         System.out.println(mods);
-        return null;
+        return mods;
     }
 
     public static void listFiles(String path){
